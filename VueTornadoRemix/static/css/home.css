@@ -1,0 +1,43 @@
+.message_time{
+    position: relative;
+    left: 500px;
+}
+.message_author{
+    position: relative;
+    left: 600px;
+}
+.message_title{
+    position: relative;
+    left: 10px;
+}
+.message_all{
+    position: relative;
+    /*top: 50px;*/
+    top: -300px;
+}
+.main_qd{
+    position: relative;
+    top: 20px;
+    left: 430px;
+}
+.main_tl{
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+.main_link{
+    position: relative;
+    top: 210px;
+    left: 80px;
+}
+.back_top{
+    width: 50px;
+    height: 50px;
+    /*border: red solid 1px;*/
+    position: fixed;
+    top: 880px;
+    right: 80px;
+    background-color: whitesmoke;
+}
+
+

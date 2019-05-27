@@ -1,0 +1,13 @@
+.title-head{
+    color: white;
+}
+.all-class{
+    border: red solid 1px;
+    width: 200px;
+    height: 500px;
+}
+.all-class-all{
+    position: relative;
+    left: 1500px;
+    top: -120px;
+}

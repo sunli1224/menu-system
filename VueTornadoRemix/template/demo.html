@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script  src="../static/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h1>hello</h1>
+<script>
+    $(function () {
+       $.post('/demo/',{name: "kobe"},function (data) {
+           if(data === "1"){
+               alert("成功");
+           }else{
+               alert("失败");
+           }
+       }) 
+    });
+</script>
+</body>
+</html>
